@@ -11,21 +11,29 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
+        <script>
+            if (
+                window.location.search == false ||
+                window.location.hash == false
+            ) {
+                window.location.replace("?#");
+            }
+        </script>
     </head>
     <body>
         <header></header>
         <main>
-            <img src="formular.png">
+            <img src="formular.png" />
             <form action="#" target="">
                 <label for="ex">Number of exponents to try</label>
                 <input id="ex" type="text" value="1000000" />
-                <br/>
+                <br />
                 <label for="g">g</label>
                 <input id="g" type="text" value="11" />
-                <br/>
+                <br />
                 <label for="p">p</label>
                 <input id="p" type="text" value="29" />
-                <br/>
+                <br />
                 <button type="submit" onclick="render_group_size()">
                     Calculate
                 </button>
