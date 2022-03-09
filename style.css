@@ -1,0 +1,25 @@
+html {
+  font-family: sans-serif;
+  background-color: black;
+  color: grey;
+}
+
+main {
+  padding-bottom: 4rem;
+}
+
+pre {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 20;
+  color: white;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
